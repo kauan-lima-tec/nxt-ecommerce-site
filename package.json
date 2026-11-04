@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "gconf": "git config --local user.name \"Kauan Lima\" && git config --local user.email \"kauanslimads@gmail.com\"",
+    "pi": "npm install -g pnpm",
+    "all": "npm run gconf && npm run pi"
   },
   "repository": {
     "type": "git",
